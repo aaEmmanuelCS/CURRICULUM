@@ -1,0 +1,29 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: #a0a0a0;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #e10600 !important;
+}
+
+.form-control:focus {
+    background-color: #000;
+    color: #fff;
+    border-color: #e10600;
+    box-shadow: 0 0 0 0.25rem rgba(225, 6, 0, 0.25);
+}
